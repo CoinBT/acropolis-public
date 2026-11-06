@@ -1,11 +1,9 @@
-# ACROPOLIS 시민 공개 아카이브
+# ACROPOLIS 공개 웹사이트
 
-기밀 원문을 제외한 정적 배포 전용 저장소입니다.
+기업별 상세 페이지와 40개 기록을 제공하는 정적 사이트입니다.
 
-Render 설정: Static Site / Branch main / Build command `echo Static assets ready` / Publish directory `.`
+2026-11-06 업데이트: 사용자 요청에 따라 두 번의 경고와 해킹 연출 뒤에 기밀 원문을 열람할 수 있습니다. 이것은 스포일러 방지 UI이며 실제 보안 장치가 아닙니다. 이 저장소와 공개 JSON에는 기밀 원문이 포함됩니다.
 
-별도 백엔드, API 키, npm 설치가 필요 없습니다. 해시 라우팅을 사용하므로 SPA rewrite도 필요 없습니다.
+기업별 농담은 원문을 바탕으로 작성한 비정사 편집 코멘트이며, 작중 소문과도 구분합니다.
 
-공개 파일: index.html, assets/, src/, content/, build-config.json.
-
-원작·기획: 신유석. 이미지는 세계관의 시각적 해석이며 실제 구조의 정사를 확정하지 않습니다.
+Render: main 브랜치 / Build command: echo Static assets ready / Publish directory: .
