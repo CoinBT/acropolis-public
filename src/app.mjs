@@ -1,6 +1,6 @@
-import {terminalText,terminalArticle} from './terminal.mjs';
-import {streetStories} from './street-life.mjs';
-import {companyArt,examplesForBlock} from './examples.mjs';
+import {terminalText,terminalArticle} from './terminal.mjs?v=terminal-20261107';
+import {streetStories} from './street-life.mjs?v=terminal-20261107';
+import {companyArt,examplesForBlock} from './examples.mjs?v=terminal-20261107';
 import {articleArtwork} from './artwork.mjs';
 import {companyProfiles} from './companies.mjs';
 import {visibleArticle as sourceVisibleArticle, normalize} from './content.mjs';
