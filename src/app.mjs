@@ -1,5 +1,5 @@
-import {audioControls} from './audio.mjs?v=bgm-20261121';
-import {mountConsole,playSignal,stopSignals} from './console.mjs?v=bgm-20261121';
+import {audioControls} from './audio.mjs?v=bgm-live-20261121';
+import {mountConsole,playSignal,stopSignals} from './console.mjs?v=bgm-live-20261121';
 import {terminalText,terminalArticle} from './terminal.mjs?v=terminal-20261107';
 import {streetStories} from './street-life.mjs?v=terminal-20261107';
 import {companyArt,examplesForBlock} from './examples.mjs?v=terminal-20261107';

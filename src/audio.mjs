@@ -1,4 +1,4 @@
-import {bgmTrack} from './audio-config.mjs?v=bgm-20261121';
+import {bgmTrack} from './audio-config.mjs?v=bgm-live-20261121';
 const read=(key,fallback)=>{try{return localStorage.getItem(key)??fallback;}catch{return fallback;}};
 const save=(key,value)=>{try{localStorage.setItem(key,String(value));}catch{}};
 let volume=Number(read('acropolis-volume','35'));

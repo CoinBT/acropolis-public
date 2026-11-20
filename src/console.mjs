@@ -1,4 +1,4 @@
-import {mountAudio,startBgm,stopBgm,masterLevel,onAudioChange} from './audio.mjs?v=bgm-20261121';
+import {mountAudio,startBgm,stopBgm,masterLevel,onAudioChange} from './audio.mjs?v=bgm-live-20261121';
 const destinations={HOME:'/',ARCHIVE:'/archive',START:'/start',FLOORS:'/floors',COMPANIES:'/factions',LIFE:'/life',STREET:'/street-life',TIMELINE:'/timeline',GLOSSARY:'/glossary',CLASSIFIED:'/classified'};
 export function parseCommand(raw){
   const [word='',...rest]=raw.trim().split(/\s+/);const verb=word.toUpperCase(),arg=rest.join(' ');
